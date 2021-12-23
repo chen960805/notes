@@ -1,0 +1,47 @@
+/* 公共css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PingFangRegular";
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+}
+
+body,
+html {
+    min-height: 100vh;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+select,
+input,
+img {
+  outline: none;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+html {
+  overflow-x: hidden;
+}

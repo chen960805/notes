@@ -1,0 +1,104 @@
+/* 浮动相关 */
+.fl-r {
+    float: right;
+}
+.fl-l {
+    float: left;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+
+/* 弹性布局相关 */
+.d-f {
+    display: flex;
+}
+.row-cen {
+    justify-content: center;
+}
+.row-sta {
+    justify-content: flex-start;
+}
+.row-end {
+    justify-content: flex-end;
+}
+.row-bet {
+    justify-content: space-between;
+}
+.row-aro {
+    justify-content: space-around;
+}
+.col-cen {
+    align-items: center;
+}
+.col-sta {
+    align-items: flex-start;
+}
+.col-end {
+    align-items: flex-end;
+}
+.col-bet {
+    align-items: space-between;
+}
+.col-aro {
+    align-items: space-around;
+}
+.f-1 {
+    flex: 1;
+}
+.f-2 {
+    flex: 2;
+}
+.f-3 {
+    flex: 3;
+}
+.f-s-0 {
+    flex-shrink: 0;
+}
+.f-w {
+    flex-wrap: wrap;
+}
+.f-d-c {
+    flex-direction: column;
+}
+
+/* 文本布局相关 */
+.t-a-c {
+    text-align: center;
+}
+.t-a-r {
+    text-align: right;
+}
+.t-a-j {
+    text-align: justify;
+}
+.one-line {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.two-line {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.three-line {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.word-break {
+    word-wrap: break-word;
+    word-break: break-all;
+}
